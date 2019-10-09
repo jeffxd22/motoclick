@@ -1,5 +1,7 @@
 {
   "name": "motoclick1",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
