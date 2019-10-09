@@ -2,29 +2,38 @@
 
 
 .corpo-gradiente {
-    background-color: #1D1F20;
+    //background-color: #1D1F20;
 
-  // --background: linear-gradient(135deg,
-   // rgb(0, 6, 8),
-   // rgb(136, 20, 165),
-   // rgb(197, 78, 167),
-   // rgb(136, 20, 165),
-  //  rgb(0, 5, 7)) !important;
-  //  background-repeat: no-repeat;
-  //  width: 100%;
-  //  height: 100vh;
+  --background: linear-gradient(135deg,
+    rgb(0, 6, 8),
+    rgb(28, 2, 34),
+    rgb(48, 5, 37),
+    rgb(28, 2, 34),
+    rgb(0, 6, 8)) !important;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
 }
-
-.botao{
-   position: absolute;
-   left: 50%;
-   top: 50%;
+.icon{
+    width: 120px;
+    height: 50px;
 }
-
+.item{
+    background: linear-gradient(135deg,
+    rgb(0, 6, 8),
+    rgb(28, 2, 34),
+    rgb(48, 5, 37),
+    rgb(28, 2, 34),
+    rgb(0, 6, 8));
+    border-radius:1.00em;
+}
 .botao{
-    position: absolute;
-    left: 50%;
-    top: 60%;
+    position: relative;
+    width: 285px;
+    height: 50px;
+    left: 2%;
+    border-radius:3.00em;
+
  }
  .checked-position{
     position: absolute;
@@ -49,12 +58,16 @@
 }
 
 .container-login {
-    background-color: rgba(243, 7, 164, 0.349);
+    background: linear-gradient(135deg,
+    rgb(240, 10, 240),
+    rgb(131, 19, 121),
+    rgb(240, 10, 240));
+    background-repeat: no-repeat;
     position: relative;
     top: 2%;
     margin: auto;
     width: 310px;
-    height: 200px;
+    height: 240px;
     border-radius:3.00em;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
