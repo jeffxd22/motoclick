@@ -1,0 +1,35 @@
+.botao{
+    position: relative;
+    width: 345px;
+    height: 50px;
+    left: 2%;
+    border-radius:1.00em;
+    top: 1%;
+ }
+ .checked-position{
+    position: absolute;
+    left: 50%;
+    top: 77%;
+ }
+.entrar{
+ position: absolute;
+    left: 31%;
+    top: 90%;
+ }
+ .corpo-gradiente {
+    //background-color: #1D1F20;
+
+  --background: linear-gradient(135deg,
+    rgb(0, 6, 8),
+    rgb(28, 2, 34),
+    rgb(48, 5, 37),
+    rgb(28, 2, 34),
+    rgb(0, 6, 8)) !important;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.imagen{
+    height: 200px;
+    width: 330px;
+}
