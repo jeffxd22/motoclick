@@ -16,6 +16,10 @@
     left: 33%;
     top: 80%;
  }
+ .texto{
+    -ms-flow-into: inherit;
+    color:#ffff
+ }
  .corpo-gradiente {
     //background-color: #1D1F20;
 
