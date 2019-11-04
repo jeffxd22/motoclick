@@ -79,3 +79,33 @@
     width: 370px;
 }
 
+.container-login {
+    background: linear-gradient(135deg,
+    rgb(240, 10, 240),
+    rgb(131, 19, 121),
+    rgb(240, 10, 240));
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0.1%;
+    margin: auto;
+    width: 310px;
+    height: 240px;
+    border-radius:1.00em;
+    box-shadow: 0 3px 10px 2 rgba(163, 16, 192, 0.678);
+    text-align: center;
+}
+
+.imagen{
+    height: 200px;
+    width: 370px;
+}
+
+
+.botao{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    left: 2%;
+    border-radius:1.00em;
+
+ }
